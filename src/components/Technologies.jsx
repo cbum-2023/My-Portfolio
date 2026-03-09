@@ -9,6 +9,7 @@ import {
   SiVite,
   SiPostman,
   SiNpm,
+  SiSocketdotio,
 } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -36,6 +37,10 @@ const Technologies = () => {
     {
       name: "Next.js",
       icon: <TbBrandNextjs className="text-7xl text-white" />,
+    },
+    {
+      name: "Socket.IO",
+      icon: <SiSocketdotio className="text-7xl text-white" />,
     },
     {
       name: "TailwindCSS",
